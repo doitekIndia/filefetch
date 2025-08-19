@@ -1,4 +1,4 @@
-st.markdown("### Created by Nitin Khatri YT [@doitek](https://www.youtube.com/@doitek)")
+
 
 
 import streamlit as st
@@ -7,7 +7,7 @@ import tempfile
 import os
 import re
 from urllib.parse import urlparse
-
+st.markdown("### Created by Nitin Khatri YT [@doitek](https://www.youtube.com/@doitek)")
 def sanitize_filename(name):
     # Remove unsafe characters from filename
     return re.sub(r'[^a-zA-Z0-9_\-\. ]', '_', name)
