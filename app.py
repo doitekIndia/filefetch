@@ -1,4 +1,5 @@
-# Created by Nitin Khatri YT @doitek
+st.markdown("### Created by Nitin Khatri YT [@doitek](https://www.youtube.com/@doitek)")
+
 
 import streamlit as st
 import requests
